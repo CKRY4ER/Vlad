@@ -1,0 +1,67 @@
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\bin\Debug\RGZ.exe.config
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\bin\Debug\RGZ.exe
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\bin\Debug\RGZ.pdb
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RedactBuyerWindow.g.cs
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\App.g.cs
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ_Content.g.cs
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ_MarkupCompile.cache
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ_MarkupCompile.lref
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RedactBuyerWindow.baml
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.g.resources
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.Properties.Resources.resources
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.csproj.GenerateResource.cache
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.csproj.CopyComplete
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.exe
+C:\Users\user\Desktop\BD_KR\RGZ\RGZ\obj\Debug\RGZ.pdb
+C:\Users\user\Desktop\RGZ1\RGZ\bin\Debug\RGZ.exe.config
+C:\Users\user\Desktop\RGZ1\RGZ\bin\Debug\RGZ.exe
+C:\Users\user\Desktop\RGZ1\RGZ\bin\Debug\RGZ.pdb
+C:\Users\user\Desktop\RGZ1\RGZ\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RGZ1\RGZ\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RGZ1\RGZ\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RedactBuyerWindow.g.cs
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\App.g.cs
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ_Content.g.cs
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ_MarkupCompile.cache
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ_MarkupCompile.lref
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RedactBuyerWindow.baml
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.g.resources
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.Properties.Resources.resources
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.csproj.GenerateResource.cache
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.csproj.CopyComplete
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.exe
+C:\Users\user\Desktop\RGZ1\RGZ\obj\Debug\RGZ.pdb
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\bin\Debug\RGZ.exe.config
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\bin\Debug\RGZ.exe
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\bin\Debug\RGZ.pdb
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\bin\Debug\EntityFramework.dll
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\bin\Debug\EntityFramework.xml
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\MainWindow.g.cs
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RedactBuyerWindow.g.cs
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\App.g.cs
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ_Content.g.cs
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ_MarkupCompile.cache
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ_MarkupCompile.lref
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\MainWindow.baml
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RedactBuyerWindow.baml
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.g.resources
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.Properties.Resources.resources
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.csproj.GenerateResource.cache
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.csproj.CopyComplete
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.exe
+C:\Users\user\Desktop\RGZ2 клиент\RGZ\obj\Debug\RGZ.pdb

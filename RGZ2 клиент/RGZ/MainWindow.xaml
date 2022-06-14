@@ -1,0 +1,47 @@
+﻿<Window x:Class="RGZ.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RGZ"
+        mc:Ignorable="d"
+        Title="Пользователь" Height="450" Width="1127">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <TextBlock x:Name="BuyerLabel" Text="Список покупателей"  FontSize="20"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <DataGrid x:Name="BuyerGrid" AutoGenerateColumns="False" 
+                                  IsReadOnly="True" 
+                                  ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                                  ScrollViewer.HorizontalScrollBarVisibility="Visible"
+                                  MouseDoubleClick="BuyerGrid_MouseDoubleClick"  FontSize="20"
+                                  Margin="0,0,0,5">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id покупателя"
+                                                    Width="Auto" 
+                                                    Binding="{Binding BuyerId}"/>
+                    <DataGridTextColumn Header="Серия паспорта" Width="Auto" Binding="{Binding Passport.Serial}"/>
+                    <DataGridTextColumn Header="Номер паспорта" Width="Auto" Binding="{Binding Passport.Number}"/>
+                    <DataGridTextColumn Header="Фамилия" Width="Auto" Binding="{Binding Surname}"/>
+                    <DataGridTextColumn Header="Имя" Width="Auto" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="Отчество" Width="Auto" Binding="{Binding MiddleName}"/>
+                    <DataGridTextColumn Header="Дата рождения" Width="Auto" Binding="{Binding Birthday}"/>
+                    <DataGridTextColumn Header="Номер телефона" Width="Auto" Binding="{Binding PhoneNumber}"/>
+                    <DataGridTextColumn Header="Номер карты" Width="Auto" Binding="{Binding CardNumber}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Button x:Name="AddBuyerBtn" Content="Добавить покупателя" Width="Auto" HorizontalAlignment="Left" Click="AddBuyerBtn_Click"  FontSize="20"/>
+            <Button x:Name="UpdateBuyerGrid" Content="Обновить таблицу" Width="Auto" HorizontalAlignment="Center" FontSize="20" Click="UpdateBuyerGrid_Click"/>
+            <Button x:Name="DeleteBuyer" Content="Удалить покупателя" Width="Auto" HorizontalAlignment="Right" FontSize="20" Click="DeleteBuyer_Click"/>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="KRBDModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Buyer">
+    <Key>
+      <PropertyRef Name="BuyerId" />
+    </Key>
+    <Property Name="BuyerId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PassportId" Type="Int32" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="20" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="Birthday" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="PhoneNumber" Type="String" MaxLength="15" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="CardNumber" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Passport" Relationship="Self.FK_Buyer_Passport" FromRole="Buyer" ToRole="Passport" />
+  </EntityType>
+  <EntityType Name="Passport">
+    <Key>
+      <PropertyRef Name="PassportID" />
+    </Key>
+    <Property Name="PassportID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Serial" Type="Int32" Nullable="false" />
+    <Property Name="Number" Type="Int32" Nullable="false" />
+    <Property Name="DateOfIssue" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IssuedByWhom" Type="String" MaxLength="150" FixedLength="true" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Buyer" Relationship="Self.FK_Buyer_Passport" FromRole="Passport" ToRole="Buyer" />
+  </EntityType>
+  <EntityType Name="State">
+    <Key>
+      <PropertyRef Name="StateId" />
+    </Key>
+    <Property Name="StateId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BuyerId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Buyer_Passport">
+    <End Role="Passport" Type="Self.Passport" Multiplicity="1" />
+    <End Role="Buyer" Type="Self.Buyer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Passport">
+        <PropertyRef Name="PassportID" />
+      </Principal>
+      <Dependent Role="Buyer">
+        <PropertyRef Name="PassportId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="KRBDEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Buyer" EntityType="Self.Buyer" />
+    <EntitySet Name="Passport" EntityType="Self.Passport" />
+    <EntitySet Name="State" EntityType="Self.State" />
+    <AssociationSet Name="FK_Buyer_Passport" Association="Self.FK_Buyer_Passport">
+      <End Role="Passport" EntitySet="Passport" />
+      <End Role="Buyer" EntitySet="Buyer" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

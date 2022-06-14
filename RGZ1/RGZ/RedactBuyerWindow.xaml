@@ -1,0 +1,71 @@
+﻿<Window x:Class="RGZ.RedactBuyerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RGZ"
+        mc:Ignorable="d"
+        Title="RedactBuyerWindow" Height="450" Width="800"
+        Closed="Window_Closed">
+    <Grid>
+        <Grid.RowDefinitions>
+        <RowDefinition Height="9*"/>
+        <RowDefinition/>
+    </Grid.RowDefinitions>
+
+    <Grid Grid.Row="0">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <Label Content="Серия пасспорта" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <Label Content="Номер пасспорта" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Label Content="Дата выдачи пасспорта" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        </Grid>
+        <Label Grid.Row="3" Content="Кем выдан пасспорт" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="4" Content="Фамилия" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="5" Content="Имя" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="6" Content="Отчество" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="7" Content="Дата рождения" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="8" Content="Номер телефона" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+        <Label Grid.Row="9" Content="Номер карты (если имеется)" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="20"></Label>
+
+        <TextBox Grid.Row ="0" Grid.Column="1" x:Name="SerialPassportTb" MaxLength="15" Height="25" FontSize="20" Text="{Binding Passport.Serial}"></TextBox>
+        <TextBox Grid.Row ="1" Grid.Column="1" x:Name="NumberPassportTb" MaxLength="15" Height="25" FontSize="20" Text="{Binding Passport.Number}"></TextBox>
+        <DatePicker Grid.Row ="2" Grid.Column="1" x:Name="DateOfIssueTb" VerticalAlignment="Center" HorizontalAlignment="Center"
+                       Width="320" Height="35" FontSize="20" Text="{Binding Passport.DateOfIssue}" ></DatePicker>
+        <TextBox Grid.Row ="3" Grid.Column="1" x:Name="IssuedByWhom" MaxLength="150" Height="25" FontSize="20" Text="{Binding Passport.IssuedByWhom}"></TextBox>
+        <TextBox Grid.Row ="4" Grid.Column="1" x:Name="Surname" MaxLength="20" Height="25" FontSize="20" Text="{Binding Surname}"></TextBox>
+        <TextBox Grid.Row ="5" Grid.Column="1" x:Name="Name" MaxLength="20" Height="25" FontSize="20" Text="{Binding Name}"></TextBox>
+        <TextBox Grid.Row ="6" Grid.Column="1" x:Name="MiddleName" MaxLength="20" Height="25" FontSize="20" Text="{Binding MiddleName}"></TextBox>
+        <DatePicker Grid.Row="7" Grid.Column="1" x:Name="Birthday" VerticalAlignment="Center" 
+                        HorizontalAlignment="Center" Width="320" Height="35" FontSize="20" Text="{Binding Birthday}"/>
+        <!--<TextBox Grid.Row ="7" Grid.Column="1" x:Name="Birthday" MaxLength="15" Height="25" FontSize="20" ></TextBox>-->
+        <TextBox Grid.Row ="8" Grid.Column="1" x:Name="PhoneNumber" MaxLength="15" Height="25" FontSize="20" Text="{Binding PhoneNumber}"></TextBox>
+        <TextBox Grid.Row ="9" Grid.Column="1" x:Name="CardNumber" MaxLength="10" Height="25" FontSize="20" Text="{Binding CardNumber}"></TextBox>
+    </Grid>
+    <Grid Grid.Row="1">
+        <Button x:Name="SaveChange" VerticalAlignment="Center" HorizontalAlignment="Center" Content="Сохранить изменения" FontSize="20" Click="SaveChange_Click"/>
+    </Grid>
+    </Grid>
+</Window>
